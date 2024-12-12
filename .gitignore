@@ -170,3 +170,5 @@ cython_debug/
 # custom
 data/*
 !data/.gitkeep
+output/*
+!output/.gitkeep
