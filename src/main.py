@@ -62,8 +62,8 @@ def notes_to_circuit_python(notes):
 
 
 if "__main__" == __name__:
-    file_path = "data/test.mid"
-    save_path = "data/test.py"
+    file_path = "data/midi.mid"
+    save_path = "output/main.py"
     mid = mido.MidiFile(file_path)
     notes = track_to_notes(mid)
     code = notes_to_circuit_python(notes)
