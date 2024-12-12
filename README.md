@@ -1,3 +1,6 @@
+## Dependencies
+- [uv](https://docs.astral.sh/uv/)
+
 ## Usage
 
 ```bash
